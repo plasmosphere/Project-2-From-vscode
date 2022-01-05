@@ -98,7 +98,7 @@ img{
   height: auto;
   display: flex;
   flex-flow: row wrap;
-  gap: 1%;
+  gap: 3%;
   border: solid 1px green;
   padding: 1%;
   background: none;
@@ -114,9 +114,9 @@ img{
   margin: 0;
   margin-bottom: 2%;
   padding: 2%;
-  height: 340px;
-  width: 65%;
-  background: lightgrey;
+  height: auto;
+  width: 64%;
+  background: var(--clr-gray);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -140,8 +140,8 @@ img{
   margin-left: auto;
   padding: 2%;
   height: 340px;
-  width: 34%;
-  background: aqua;
+  width: 33%;
+  background: var(--clr-gray);
   order: 0;
   display: flex;
   flex-flow: row wrap;
@@ -155,7 +155,7 @@ img{
   height: auto;
   width: 100%;
 
-  background: blue;
+  background: none;
   display: flex;
   flex-flow: row wrap;
   gap: 3% 3%;
@@ -167,8 +167,8 @@ img{
   margin-right: auto;
   padding: 0;
   margin-bottom: auto;
-  height: 105px;
-  flex: 0 1 140px;
+  height: 169px;
+  flex: 0 1 300px;
    
 }
 
@@ -185,6 +185,7 @@ img{
 
 .act-card {
   background: white;
+  border: solid 1px blue;
   margin: 0;
   padding: 0;
   margin-bottom: 2%;
